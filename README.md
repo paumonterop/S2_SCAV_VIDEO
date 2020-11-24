@@ -36,12 +36,10 @@ Per saber el codec que porta l'audio del video original:
 
 ffmpeg -i bbb.mp4 -c codec
 
-![ScreenShot E4- CODEC](https://github.com/paumonterop/S2_SCAV_VIDEO/tree/main/Imatges/E4_screenshot1.png?raw=true)
-
 Passar a mono i a mp3. En el parametre *-ac* se li assigna el numero de canals de sortida i en paramentre *-acodec* el nou codec d'audio de sortida.
 
 *ffmpeg -i bbb_10s.mp4 -ac 1 -acodec mp3 bbb_mp3.mp4*
 
-![ScreenShot E4- MONO i MP3](https://github.com/paumonterop/S2_SCAV_VIDEO/tree/main/Imatges/E4_screenshot2.png?raw=true)
+![ScreenShot E4- MONO i MP3](https://github.com/paumonterop/S2_SCAV_VIDEO/tree/main/Imatges/E4_screenshot.png?raw=true)
 
 
