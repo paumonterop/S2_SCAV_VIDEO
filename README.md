@@ -1,7 +1,7 @@
 # S2_SCAV_VIDEO
 Semianri 2 - SCAV_VIDEO
 
-A l'script *S2_MAIN.py* hi ha tot el codi integrat per tal de poder executar cada exerici independentment i de forma interactiva amb el terminal.
+A l'script *S2_MAIN.py* hi ha tot el codi integrat per tal de poder executar cada exercici independentment i de forma interactiva amb el terminal.
 
 **Exercici 1.**
 
