@@ -15,6 +15,7 @@ def exer3():
     print("\t 1. 720p")
     print("\t 2. 480p")
     print("\t 3. 360p")
+    print("\t 4. 160x120p")
     resize = input("Escull l'opció: ")
 
     if resize == '1':
@@ -23,6 +24,8 @@ def exer3():
         os.system('ffmpeg -i bbb_10s.mp4 -vf scale=-1:480 bbb_480.mp4')
     elif resize == '3':
         os.system('ffmpeg -i bbb_10s.mp4 -vf scale=-1:360 bbb_360.mp4')
+    elif resize == '4':
+        os.system('ffmpeg -i bbb_10s.mp4 -vf scale=160:120  bbb_120.mp4')
     else:
         print("Aquesta opció no existeix. Tornar a introduir l'opció")
         exer3()
