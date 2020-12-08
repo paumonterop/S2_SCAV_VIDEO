@@ -21,7 +21,7 @@ def exer3():
     if resize == '1':
         os.system('ffmpeg -i bbb_10s.mp4 -vf scale=-1:720 bbb_720.mp4')
     elif resize == '2':
-        os.system('ffmpeg -i bbb_10s.mp4 -vf scale=-1:480 bbb_480.mp4')
+        os.system('ffmpeg -i bbb_10s.mp4 -vf scale=852:480 bbb_480.mp4')
     elif resize == '3':
         os.system('ffmpeg -i bbb_10s.mp4 -vf scale=-1:360 bbb_360.mp4')
     elif resize == '4':
